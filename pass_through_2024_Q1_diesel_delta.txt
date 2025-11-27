@@ -1,0 +1,31 @@
+                          PanelOLS Estimation Summary                           
+================================================================================
+Dep. Variable:            diesel_diff   R-squared:                        0.0003
+Estimator:                   PanelOLS   R-squared (Between):              0.0008
+No. Observations:              887944   R-squared (Within):               0.0003
+Date:                Wed, Nov 19 2025   R-squared (Overall):              0.0004
+Time:                        23:58:11   Log-likelihood                 1.912e+06
+Cov. Estimator:             Clustered                                           
+                                        F-statistic:                      253.04
+Entities:                       15117   P-value                           0.0000
+Avg Obs:                       58.738   Distribution:                F(1,872826)
+Min Obs:                       1.0000                                           
+Max Obs:                       62.000   F-statistic (robust):             249.74
+                                        P-value                           0.0000
+Time periods:                      62   Distribution:                F(1,872826)
+Avg Obs:                    1.432e+04                                           
+Min Obs:                    1.402e+04                                           
+Max Obs:                    1.502e+04                                           
+                                                                                
+                              Parameter Estimates                              
+===============================================================================
+             Parameter  Std. Err.     T-stat    P-value    Lower CI    Upper CI
+-------------------------------------------------------------------------------
+brent_delta     0.0649     0.0041     15.803     0.0000      0.0569      0.0730
+===============================================================================
+
+F-test for Poolability: 0.1778
+P-value: 1.0000
+Distribution: F(15116,872826)
+
+Included effects: Entity
