@@ -1,0 +1,33 @@
+                          PanelOLS Estimation Summary                           
+================================================================================
+Dep. Variable:                 dprice   R-squared:                     5.803e-05
+Estimator:                   PanelOLS   R-squared (Between):           4.613e-05
+No. Observations:             9035220   R-squared (Within):            5.803e-05
+Date:                Mon, Nov 17 2025   R-squared (Overall):           5.846e-05
+Time:                        22:49:23   Log-likelihood                 2.007e+07
+Cov. Estimator:             Clustered                                           
+                                        F-statistic:                      261.69
+Entities:                       15822   P-value                           0.0000
+Avg Obs:                       571.05   Distribution:               F(2,9019396)
+Min Obs:                       1.0000                                           
+Max Obs:                       628.00   F-statistic (robust):             265.73
+                                        P-value                           0.0000
+Time periods:                     628   Distribution:               F(2,9019396)
+Avg Obs:                    1.439e+04                                           
+Min Obs:                    1.386e+04                                           
+Max Obs:                    1.507e+04                                           
+                                                                                
+                             Parameter Estimates                              
+==============================================================================
+            Parameter  Std. Err.     T-stat    P-value    Lower CI    Upper CI
+------------------------------------------------------------------------------
+const         -0.0006  9.934e-06    -61.564     0.0000     -0.0006     -0.0006
+brent_up      -0.0237     0.0018    -13.162     0.0000     -0.0272     -0.0201
+brent_down    -0.0374     0.0017    -22.258     0.0000     -0.0407     -0.0341
+==============================================================================
+
+F-test for Poolability: 5.2215
+P-value: 0.0000
+Distribution: F(15821,9019396)
+
+Included effects: Entity
